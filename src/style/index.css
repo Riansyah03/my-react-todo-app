@@ -1,3 +1,4 @@
+/* Step 1 */
 body {
     /*
       warna background #eeeeee
@@ -59,10 +60,27 @@ body {
     margin-top: 10px;
   }
   
+  /* Step 2 */
   .form-control {
     border-radius: 0;
   }
   
   .add-todo {
     margin: 10px 0px;
+  }
+
+  /* Step 3 */
+  .page-controller {
+    /* buat class ini menjadi sebuah flexbox dengan konten rata tengah baik secara horizontal & vertikal */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;  /* berikan margin vertikal 20px dan margin horizontal 0 */
+  }
+  
+  .page-btn {
+    border: 0;
+    background: #333333;
+    color: #ffffff;
+    margin: 0 15px;
   }
